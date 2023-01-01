@@ -8,8 +8,8 @@ html {
 
 body {
     font-family: Raleway;
-    padding: 1.5%;
-    margin-top: -10px;
+    padding: 1.8%;
+    margin-top: -50px;
 }
 
 li {
@@ -20,14 +20,14 @@ h2 {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 22px;
-    margin: 8px 0px 8px;
+    margin: 8px 0px;
 }
 
 h4 {
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 16px;
-    margin: 8px 0px 8px;
+    margin: 8px 0px;
 }
 
 a {
@@ -41,6 +41,7 @@ header #logo {
     float:left;
     width: 60px;
     height: 20px;
+    padding-top: 40px;
 }
 
 nav a {
@@ -52,19 +53,23 @@ nav a {
     display: flex;
     justify-content: space-between;
     margin-left: 70px;
+    padding-top: 50px;
 }
 
 nav li a:hover {
     color: #0065FC;
     font-weight: 500;
+    border-top: 2px solid #0065FC;
+    margin: -2px;
+    margin-left: 70px;
 }
 
 
 
-/******************* section search *******************/
+/******************* barre de recherche *******************/
 
 #search {
-   margin-top: 100px;
+   margin-top: 140px;
 }
 
 #searchbar {
@@ -112,66 +117,46 @@ nav li a:hover {
 
 
 
-
-
-
+/******************* filtres *******************/
 
 #filtres {
     margin-top: 150px;
     display: flex;
-}
+    align-items: baseline;
+    }
 
-#filtres form {
-    display: flex;
-    justify-content: space-around;
- }
 
 #filtres button {
     border: 2px solid #F2F2F2;
-    width:auto;
     height: 50px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 20px;
     color: black;
     background: #fff;
     border-radius: 25px;
     padding: 0px 1%;
     margin-left: 50px;
+    margin-top: 20px;
 }
 
 #filtres i {
     color: #0065FC;
-}
-
-#eco i {
-    padding-right: 10px;
-    width: 22px;
-    height: 16px;
-}
-
-#family i {
-    padding-right: 10px;
-    width: 14px;
-    height: 22px;
-}
-
-#romantic i {
-    padding-right: 10px;
-    width: 22px;
-    height: 18px;
-}
-
-#pet i {
-    padding-right: 10px;
-    width: 22px;
-    height: 22px;
+    padding-right: 20px;
 }
 
 #filtres button:hover {
     background: #DEEBFF;
     cursor: pointer;
     transform: scale(1.05);
+}
+
+#eco #romantic{
+    width: 200px;
+}
+#family{
+    width: 150px;
+}
+#pet{
+    width: 250px;
 }
