@@ -8,8 +8,7 @@ html {
 
 body {
     font-family: Raleway;
-    padding: 1.8%;
-    margin-top: -50px;
+    padding: 5px 50px 0px 50px;
 }
 
 li {
@@ -37,11 +36,16 @@ a {
 
 /******************* header *******************/
 
+#logo #nav {
+    display: flex;
+    align-items: baseline;
+}
+
 header #logo {
     float:left;
     width: 60px;
     height: 20px;
-    padding-top: 40px;
+    padding-top: 24px;
 }
 
 nav a {
@@ -53,7 +57,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     margin-left: 70px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 nav li a:hover {
@@ -160,3 +164,7 @@ nav li a:hover {
 #pet{
     width: 250px;
 }
+
+
+
+/******************* hébergements *******************/
