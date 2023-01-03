@@ -15,18 +15,25 @@ li {
     list-style-type: none;
 }
 
-h2 {
+.titre {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 22px;
     margin: 8px 0px;
 }
 
-h4 {
+.sous_titre {
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 16px;
     margin: 8px 0px;
+}
+
+.petit_titre {
+    font-family: raleway;
+    font-weight: 700;
+    size: 18px;
+
 }
 
 a {
@@ -165,14 +172,25 @@ nav li a:hover {
     width: 250px;
 }
 
+/******************* info *******************/
+
 #info {
     display: flex;
     align-items: baseline;
     margin-top: 20px;
 }
 
-#info h4 {
+#info h3 {
     margin-left: 10px;
 }
 
-/******************* hébergements *******************/
+/******************* Hébergements a Marseille *******************/
+
+#Hebergements {
+    width: 880px;
+    height: 626px;
+    border-radius: 20px;
+    background: #F2F2F2;
+    padding: 40px;
+    margin-top: 40px;
+}
