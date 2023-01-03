@@ -33,11 +33,28 @@ li {
     font-family: raleway;
     font-weight: 700;
     size: 18px;
+}
 
+.titre_img {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    font: black;
+    margin-left: 15px;
+}
+
+.prix_img {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    font: black;
+    margin-top: 0px;
+    margin-left: 15px;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 
@@ -122,7 +139,6 @@ nav li a:hover {
 }
 
 #search_button:hover {
-    transform: scale(1.05);
     cursor: pointer;
 }
 
@@ -159,7 +175,6 @@ nav li a:hover {
 #filtres button:hover {
     background: #DEEBFF;
     cursor: pointer;
-    transform: scale(1.05);
 }
 
 #eco #romantic{
@@ -186,11 +201,57 @@ nav li a:hover {
 
 /******************* Hébergements a Marseille *******************/
 
-#Hebergements {
-    width: 880px;
-    height: 626px;
+#Hébergements {
+    width: 900px;
+    height: 590px;
     border-radius: 20px;
     background: #F2F2F2;
     padding: 40px;
     margin-top: 40px;
+}
+
+#panel_hebergement{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carte_hebergement {
+    width: 250px;
+    height: 200px;
+    margin:30px 20px 0px 20px;
+    line-height: 1px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.15);
+}
+
+.img_panel_hebergement{
+    width: 100%;
+    height:120px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.note {
+    margin-left: 15px;
+}
+
+#afficher_plus {
+    display: flex;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#titre_hebergement {
+    margin-left: 20px;
+}
+
+.carte_hebergement:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
 }
