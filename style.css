@@ -165,6 +165,14 @@ nav li a:hover {
     width: 250px;
 }
 
+#info {
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+}
 
+#info h4 {
+    margin-left: 10px;
+}
 
 /******************* hébergements *******************/
