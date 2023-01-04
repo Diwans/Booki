@@ -52,6 +52,15 @@ li {
     line-height: 20px;
 }
 
+.titre_img_activité {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    font: black;
+    margin-left: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+}
 
 .prix_img {
     font-family: 'Raleway';
@@ -333,6 +342,41 @@ nav li a:hover {
 }
 
 .carte_populaire:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
+}
+
+/******************* Activités à Marseille *******************/
+
+#activités{
+    margin-top: 60px;
+    
+}
+
+.carte_activité {
+    width: 400px;
+    height: 550px;
+    border-radius: 0px 0px 20px 20px;
+    line-height: 1px;
+    background: #fff;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.15);
+}
+
+.img_panel_activité {
+    width: 400px;
+    height: 490px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+#panel_activités{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte_activité:hover{
     cursor: pointer;
     transform: scale(1.05);
     box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
