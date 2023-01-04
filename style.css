@@ -43,6 +43,16 @@ li {
     margin-left: 15px;
 }
 
+.titre_img_populaire {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    font: black;
+    margin-left: 15px;
+    line-height: 20px;
+}
+
+
 .prix_img {
     font-family: 'Raleway';
     font-weight: 400;
@@ -234,7 +244,7 @@ nav li a:hover {
 
 .img_panel_hebergement{
     width: 100%;
-    height:120px;
+    height: 180px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
@@ -282,4 +292,48 @@ nav li a:hover {
 
 #chart {
     float: right;
+}
+
+.carte_populaire {
+    width: 390px;
+    height: 155px;
+    line-height: 1px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.15);
+    margin-top: 30px;
+    margin-bottom: 52px;
+}
+
+.img_panel_populaire {
+    width: 45%;
+    height: 155px;
+    border-radius: 20px 0px 0px 20px;;
+    object-fit: cover;
+}
+
+.carte_populaire{
+    display: flex;
+}
+
+.text_carte_populaire {
+    padding-right: 20px;
+    margin-top: -10px;
+}
+
+.note_populaire_1{
+    margin-left: 15px;
+    margin-top: 70px;
+}
+
+.note_populaire_2 {
+    margin-left: 15px;
+    margin-top: 90px;
+}
+
+.carte_populaire:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
 }
