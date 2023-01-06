@@ -218,7 +218,7 @@ nav li a:hover{
     margin-top: 20px;
 }
 
-#info h3{
+#info p{
     margin-left: 10px;
 }
 
@@ -264,14 +264,14 @@ nav li a:hover{
 
 .img_heb{
     width: 100%;
-    height: 180px;
+    height: 170px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
 .note{
     margin-left: 15px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 #afficher_plus{
@@ -338,16 +338,6 @@ nav li a:hover{
     margin-top: -10px;
 }
 
-.note_pop_1{
-    margin-left: 15px;
-    margin-top: 35px;
-}
-
-.note_pop_2{
-    margin-left: 15px;
-    margin-top: 35px;
-}
-
 .card_pop:hover{
     cursor: pointer;
     transform: scale(1.05);
@@ -396,10 +386,9 @@ nav li a:hover{
 /******************* footer *******************/
 
 footer{
-    width: 100%;
+    width: 92%;
     height: 250px;
     background: #F2F2F2;
-    margin-bottom: -20px;
     margin-left: auto;
     margin-right: auto;
     padding: 40px 70px 0px 70px;
