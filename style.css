@@ -30,7 +30,7 @@ a{
 
 .subtitle{
     font-weight: 700;
-    size: 18px;
+    font-size: 18px;
 }
 
 .caption{
@@ -42,7 +42,7 @@ a{
 .title_loc{
     font-weight: 700;
     font-size: 15px;
-    font: black;
+    color: black;
     margin-left: 15px;
     margin-top: 15px;
     line-height: 15px;
@@ -51,7 +51,7 @@ a{
 .title_pop{
     font-weight: 700;
     font-size: 15px;
-    font: black;
+    color: black;
     margin-left: 15px;
     line-height: 20px;
     margin-top: 20px;
@@ -60,7 +60,7 @@ a{
 .title_act{
     font-weight: 700;
     font-size: 16px;
-    font: black;
+    color: black;
     margin-left: 15px;
     line-height: 20px;
     margin-top: 20px;
@@ -69,7 +69,7 @@ a{
 .cost_img{
     font-weight: 400;
     font-size: 13px;
-    font: black;
+    color: black;
     margin-top: 0px;
     margin-left: 15px;
     line-height: 15px;
