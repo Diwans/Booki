@@ -2,6 +2,7 @@
 
 html{
     scroll-behavior: smooth;
+    max-width: 1400px;
 }
 
 *{
@@ -10,7 +11,7 @@ html{
 }
 
 main{
-    padding: 5px 45px 0px 45px;
+    padding: 5px 40px 0px 40px;
 }
 
 li{
@@ -70,14 +71,16 @@ a{
     font-weight: 400;
     font-size: 13px;
     color: black;
-    margin-top: 0px;
+    margin-top: 4px;
     margin-left: 15px;
     line-height: 15px;
 }
 
 .note{
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    min-width: 70px;
 }
 
 .bleu{
@@ -131,7 +134,7 @@ nav li a:hover{
 /******************* barre de recherche *******************/
 
 #search{
-   margin-top: 140px;
+   margin-top: 100px;
 }
 
 #searchbar{
@@ -180,7 +183,7 @@ nav li a:hover{
 /******************* filtres *******************/
 
 #filter{
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     align-items: baseline;
 }
@@ -227,7 +230,8 @@ nav li a:hover{
 #info{
     display: flex;
     align-items: baseline;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 
 #info p{
@@ -249,12 +253,12 @@ nav li a:hover{
 }
 
 #location{
-    width: 70%;
-    height: 730px;
+    width: 80%;
+    height: 600px;
     border-radius: 20px;
     background: #F2F2F2;
-    padding: 40px;
-    margin-top: 40px;
+    padding: 30px;
+    margin-top: 25px;
 }
 .title_location{
     margin-left: 20px;
@@ -262,12 +266,12 @@ nav li a:hover{
 
 .card_loc{
     width: 100%;
-    height: 100%;
-    margin: 36px 10px 0px 10px;
+    height: 200px;
+    margin: 15px;
     line-height: 1px;
     background: #fff;
     border-radius: 20px;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.15);
@@ -275,7 +279,7 @@ nav li a:hover{
 
 .img_loc{
     width: 100%;
-    height: 170px;
+    height: 124px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
@@ -298,12 +302,12 @@ nav li a:hover{
 
 #popular{
     width: 30%;
-    height: 730px;
+    height: 600px;
     border-radius: 20px;
     background: #F2F2F2;
-    padding: 40px;
-    margin-top: 40px;
-    margin-left: 80px;
+    padding: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
 }
 
 #chart{
@@ -312,24 +316,21 @@ nav li a:hover{
 
 .card_pop{
     width: 100%;
-    height: 160px;
+    height: 135px;
     line-height: 1px;
     background: #fff;
     border-radius: 20px;
     padding: 5px;
     box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.15);
-    margin-top: 20px;
     display: flex;
-    min-height: 155px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .img_pop{
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    height: 135px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
-    min-height: 155px;
 }
 
 .txt_card{
@@ -401,4 +402,101 @@ footer{
 
 .txt_footer{
     line-height: 40px;
+}
+
+
+/******************* version tablette *******************/
+
+@media screen and (max-width: 992px)
+{
+    #search{
+        margin-top: 100px;
+     }
+
+     #searchbar{
+        margin-top: 10px;
+    }
+
+    #filter{
+        margin-top: 90px;
+    }
+
+    #info{
+        margin-top: 20px;
+    }
+
+    .loc_pop{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .note{
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    #location{
+        width: 100%;
+        height: 580px;
+    }
+
+    #popular{
+        width: 100%;
+        margin-left: 0px;
+        padding: 30px;
+        height: 240px;
+        margin-top: 50px;
+    }
+
+    .title_pop{
+        font-size: 14px;
+    }
+
+    .cost_img{
+        font-size: 12px;
+    }
+
+    .img_loc{
+        height: 124px;
+    }
+
+    .img_pop{
+        width: 35%;
+    }
+    
+    .card_loc{
+        padding: 5px;
+    }
+
+    .card_pop{
+        width: 30%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .txt_card{
+        margin-top: -15px;
+    }
+
+    #panel_card{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #activity{
+        margin-top: 70px;
+    }
+
+    .card_act{
+        height: 280px;
+    }
+
+    .img_act{
+        height: 220px;
+    }
+
+    .card_act{
+        justify-content: space-between;
+    }
 }
