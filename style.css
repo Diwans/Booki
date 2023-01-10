@@ -405,10 +405,27 @@ footer{
 }
 
 
-/******************* version tablette *******************/
+/************************************** media query version tablette **************************************/
 
 @media screen and (max-width: 992px)
 {
+/***** paramètres généraux de la page *****/
+    .note{
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .cost_img{
+        font-size: 12px;
+    }
+
+    .margin_subtitle{
+        margin-bottom: 15px;
+    }
+
+
+    /***** barre de recherche *****/
     #search{
         margin-top: 100px;
      }
@@ -417,23 +434,24 @@ footer{
         margin-top: 10px;
     }
 
+
+    /***** filtres *****/
     #filter{
         margin-top: 90px;
+        flex-wrap: wrap;
     }
 
+
+    /***** info *****/
     #info{
         margin-top: 20px;
     }
 
+
+    /***** Hébergements a Marseille *****/
     .loc_pop{
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .note{
-        margin-left: 15px;
-        margin-top: 15px;
-        margin-bottom: 5px;
     }
 
     #location{
@@ -441,6 +459,16 @@ footer{
         height: 580px;
     }
 
+    .img_loc{
+        height: 124px;
+    }
+
+    .card_loc{
+        padding: 5px;
+    }
+
+
+    /***** Les plus populaires *****/
     #popular{
         width: 100%;
         margin-left: 0px;
@@ -453,22 +481,10 @@ footer{
         font-size: 14px;
     }
 
-    .cost_img{
-        font-size: 12px;
-    }
-
-    .img_loc{
-        height: 124px;
-    }
-
     .img_pop{
         width: 35%;
     }
     
-    .card_loc{
-        padding: 5px;
-    }
-
     .card_pop{
         width: 30%;
         margin: 0px;
@@ -484,19 +500,34 @@ footer{
         justify-content: space-between;
     }
 
+
+    /***** Activités à Marseille *****/
     #activity{
         margin-top: 70px;
     }
 
+    #panel_activity{
+        margin-bottom: 70px;
+    }
     .card_act{
         height: 280px;
+        justify-content: space-between;
     }
 
     .img_act{
         height: 220px;
     }
 
-    .card_act{
-        justify-content: space-between;
+
+    /***** footer *****/
+    footer {
+        justify-content: space-evenly;
+        height: 200px;
+        margin-top: 0px;
     }
+
+    .txt_footer{
+        line-height: 30px;
+    }
+
 }
