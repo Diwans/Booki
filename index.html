@@ -32,24 +32,26 @@
 <section id="search">
         <h1 class="title">Trouver votre hébergement pour des vacances de rêve</h1>
         <p class="caption">En plein centre-ville ou en pleine nature</p>
-    
+
+        <div>
         <form id="searchbar"> 
             <div id="map_dot"><i class="fa-solid fa-location-dot"></i></div>
-            <input type="search" placeholder="Rechercher une destination" value="Marseille, France">
-            <button id="search_button">Recherche</button>
+            <input type="search" placeholder="Où allez-vous ?" value="Marseille, France">
+            <button class="search_button">Recherche</button><button class="loop_button"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
-
+        </div>
 
 
 <!--******************* filtres *******************-->
 
         <div id="filter">
-            <div><h2 class="subtitle">Filtres</h2></div>
-            
-            <button class="width200" id="eco"> <i class="fa-solid fa-money-bill-wave"></i>Économique</button>
-            <button class="width150" id="family"> <i class="fa-solid fa-person"></i>Familial</button>
-            <button class="width200" id="romantic"> <i class="fa-solid fa-heart"></i>Romantique</button>
-            <button  class="width250" id="pet"> <i class="fa-solid fa-dog"></i>Animaux autorisés</button>
+            <div><h2 class="subtitle margin">Filtres</h2></div>
+                <div id="filter_div">
+                <button class="width200" id="eco"> <i class="fa-solid fa-money-bill-wave"></i><span class="font_phone">Économique</span></button>
+                <button class="width150" id="family"> <i class="fa-solid fa-person"></i><span class="font_phone">Familial</span></button>
+                <button class="width200" id="romantic"> <i class="fa-solid fa-heart"></i><span class="font_phone">Romantique</span></button>
+                <button class="width250" id="pet"> <i class="fa-solid fa-dog"></i><span class="font_phone">Animaux autorisés</span></button>
+                </div>
         </div>
 
         <div id="info">

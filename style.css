@@ -146,7 +146,7 @@ nav a:hover{
 
 #search input{
     border: 1.5px solid #F2F2F2;
-    width: 250px;
+    width: 60%;
     height: 50px;
     font-size: 16px;
     font-family: raleway;
@@ -156,13 +156,21 @@ nav a:hover{
 
 #searchbar button{
     border: none;
-    width: 130px;
+    width: auto;
     height: 50px;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
     background: #0065FC;
     border-radius: 0px 15px 15px 0px;
+}
+
+.loop_button{
+    display: none;
+}
+
+.search_button{
+    display: block;
 }
 
 #search_button:hover{
@@ -179,6 +187,9 @@ nav a:hover{
     align-items: baseline;
 }
 
+.margin{
+    margin-right: 20px;
+}
 
 #filter button{
     border: 2px solid #F2F2F2;
@@ -190,7 +201,7 @@ nav a:hover{
     background: #fff;
     border-radius: 25px;
     padding: 0px 1%;
-    margin-left: 1%;
+    margin-left: 10px;
     margin-top: 20px;
 }
 
@@ -526,6 +537,10 @@ footer{
 /************************************** media query version telephone **************************************/
 
 @media screen and (max-width: 768px){
+   
+    main{
+        padding: 5px 0px 0px 0px;
+    }
 
     #logo_booki{
         display: flex;
@@ -566,5 +581,46 @@ footer{
 
     #search{
         margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .loop_button{
+        display: block;
+    }
+    
+    .search_button{
+        display: none;
+    }
+
+    #filter{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    filter button{
+        margin-left: 10px;
+    }
+
+    .font_phone{
+        font-weight: 700;
+        font-size: 11px;
+    }
+
+    .width150 {
+        min-width: 160px;
+    }
+    .width200{
+        min-width: 160px;
+    }
+    .width250{
+        min-width: 160px;
+    }
+
+    #filter_div{
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+
     }
 }
