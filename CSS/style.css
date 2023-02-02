@@ -3,6 +3,7 @@
 html{
     scroll-behavior: smooth;
     max-width: 1400px;
+    overflow-x: hidden;
 }
 
 *{
